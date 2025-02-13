@@ -1,0 +1,44 @@
+body {
+	margin-top: 10%;
+	font-family: Arial, Helvetica, sans-serif;
+  background-color: red;
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-family:'Bookman Old Style', Georiga, serif;
+}
+
+#email {
+	padding: 5px;
+}
+
+#phone {
+	padding: 5px;
+}
+
+#dob {
+	padding: 5px;
+}
+
+#submit_button {
+	padding: 5px;
+}
+
+#form {
+	border: 0.25em dashed black;
+	display: block;
+	padding: 10px;
+	margin: auto;
+	width: 75%;
+	text-align: center;
+	background: rgb(30, 180,70);
+}
+
+@media only screen and (min-width: 480px) {
+	#form{
+		width: 80%;
+		display: block;
+	}
+}
